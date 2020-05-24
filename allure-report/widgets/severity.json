@@ -1,0 +1,61 @@
+[ {
+  "uid" : "98b3e30a9278e400",
+  "name" : "Test01: Login to Grafana with DB",
+  "time" : {
+    "start" : 1588427006989,
+    "stop" : 1588427007186,
+    "duration" : 197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6326d47dbdc11f41",
+  "name" : "Test05: verify Avatar",
+  "time" : {
+    "start" : 1588427165600,
+    "stop" : 1588427167587,
+    "duration" : 1987
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8f7155508c0efa0",
+  "name" : "Test04: Delete Last User and Verify Users",
+  "time" : {
+    "start" : 1588427162878,
+    "stop" : 1588427165166,
+    "duration" : 2288
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6e47c16cbc2fc033",
+  "name" : "Test01: Login to Grafana",
+  "time" : {
+    "start" : 1588427154052,
+    "stop" : 1588427156745,
+    "duration" : 2693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "df9dbb24ba456138",
+  "name" : "Test02: Verify Default Users",
+  "time" : {
+    "start" : 1588427157617,
+    "stop" : 1588427158474,
+    "duration" : 857
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4084d17594f00e8a",
+  "name" : "Test03: Add and Verify Users",
+  "time" : {
+    "start" : 1588427158858,
+    "stop" : 1588427162378,
+    "duration" : 3520
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

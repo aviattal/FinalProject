@@ -1,0 +1,95 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "DESKTOP-5A80V1T",
+    "children" : [ {
+      "name" : "34280@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "6e47c16cbc2fc033",
+        "parentUid" : "da668e991a00f61edbf8ac7bdbd3fde4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588427154052,
+          "stop" : 1588427156745,
+          "duration" : 2693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "df9dbb24ba456138",
+        "parentUid" : "da668e991a00f61edbf8ac7bdbd3fde4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588427157617,
+          "stop" : 1588427158474,
+          "duration" : 857
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "4084d17594f00e8a",
+        "parentUid" : "da668e991a00f61edbf8ac7bdbd3fde4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588427158858,
+          "stop" : 1588427162378,
+          "duration" : 3520
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "b8f7155508c0efa0",
+        "parentUid" : "da668e991a00f61edbf8ac7bdbd3fde4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588427162878,
+          "stop" : 1588427165166,
+          "duration" : 2288
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "6326d47dbdc11f41",
+        "parentUid" : "da668e991a00f61edbf8ac7bdbd3fde4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588427165600,
+          "stop" : 1588427167587,
+          "duration" : 1987
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "da668e991a00f61edbf8ac7bdbd3fde4"
+    }, {
+      "name" : "46332@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana with DB",
+        "uid" : "98b3e30a9278e400",
+        "parentUid" : "a4394e1025d6cdf7bb22abc2fb3849d9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588427006989,
+          "stop" : 1588427007186,
+          "duration" : 197
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "a4394e1025d6cdf7bb22abc2fb3849d9"
+    } ],
+    "uid" : "c94ccc46a8dde4d6554c662c8d3cf0d3"
+  } ]
+}

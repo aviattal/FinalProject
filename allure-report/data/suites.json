@@ -1,0 +1,99 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Web Tests",
+      "children" : [ {
+        "name" : "SanityTests.grafanaWebDB",
+        "children" : [ {
+          "name" : "Test01: Login to Grafana with DB",
+          "uid" : "98b3e30a9278e400",
+          "parentUid" : "c9b947e53f207dab9ea0ca1db909eb0e",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588427006989,
+            "stop" : 1588427007186,
+            "duration" : 197
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "c9b947e53f207dab9ea0ca1db909eb0e"
+      }, {
+        "name" : "SanityTests.grafanaWeb",
+        "children" : [ {
+          "name" : "Test01: Login to Grafana",
+          "uid" : "6e47c16cbc2fc033",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588427154052,
+            "stop" : 1588427156745,
+            "duration" : 2693
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test02: Verify Default Users",
+          "uid" : "df9dbb24ba456138",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588427157617,
+            "stop" : 1588427158474,
+            "duration" : 857
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test03: Add and Verify Users",
+          "uid" : "4084d17594f00e8a",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588427158858,
+            "stop" : 1588427162378,
+            "duration" : 3520
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test04: Delete Last User and Verify Users",
+          "uid" : "b8f7155508c0efa0",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588427162878,
+            "stop" : 1588427165166,
+            "duration" : 2288
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test05: verify Avatar",
+          "uid" : "6326d47dbdc11f41",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "passed",
+          "time" : {
+            "start" : 1588427165600,
+            "stop" : 1588427167587,
+            "duration" : 1987
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "2c6a77e3025b87af7d0ad31552c67018"
+      } ],
+      "uid" : "021ae6ebaf24613400055f41a8f6b406"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  } ]
+}
