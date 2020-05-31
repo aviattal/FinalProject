@@ -33,7 +33,7 @@
 
 
     <!-- DB -->
-    <dbURL>jdbc:mysql://fdb23.awardspace.net:3306/3419881_avidb</dbURL>
+    <dbURL>jdbc:mysql://fdb23.awardspace.net</dbURL>
     <dbUser>3419881_avidb</dbUser>
-    <dbPassword>vOwfzouW6_Lym[dI</dbPassword>
+    <dbPassword>123456</dbPassword>
 </Enviroment>
