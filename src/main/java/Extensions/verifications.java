@@ -24,7 +24,7 @@ public class verifications extends commonOps
     {
      /*   if(!getData("PlatformName").equalsIgnoreCase("mobile") && !getData("PlatformName").equalsIgnoreCase("electron"))
             wait.until(ExpectedConditions.visibilityOf(elem));*/
-        String platform = getData("PlatformName");
+        String platform = Platform;
         boolean platformMobile = platform.equalsIgnoreCase("mobile");
         boolean platformElectron = platform.equalsIgnoreCase("electron");
         boolean platformDesktop = platform.equalsIgnoreCase("desktop");
@@ -48,7 +48,7 @@ public class verifications extends commonOps
     @Step("Verify the Number of Elements Equals to")
     public static void numOfElements (List<WebElement> elems , int expectedValue)
     {
-        if(!getData("PlatformName").equalsIgnoreCase("mobile") && !getData("PlatformName").equalsIgnoreCase("electron"))
+        if(Platform.equalsIgnoreCase("mobile") && !Platform.equalsIgnoreCase("electron"))
             wait.until(ExpectedConditions.visibilityOf(elems.get(elems.size()-1)));
         assertEquals(elems.size(),expectedValue);
     }

@@ -18,4 +18,24 @@ public class calcFlow extends commonOps
         uiActions.click(calcMain.btn_equals);
 
     }
+    @Step("Calculate subtraction")
+    public static void calculateSubtraction()
+    {
+        uiActions.click(calcMain.btn_ce);
+        uiActions.click(calcMain.btn_nine);
+        uiActions.click(calcMain.btn_minus);
+        uiActions.click(calcMain.btn_seven);
+        uiActions.click(calcMain.btn_equals);
+
+    }
+    @Step("Calculate multiply")
+    public static void calculateMultiply()
+    {
+        uiActions.click(calcMain.btn_ce);
+        uiActions.click(calcMain.btn_nine);
+        uiActions.click(calcMain.btn_multi);
+        uiActions.click(calcMain.btn_seven);
+        uiActions.click(calcMain.btn_equals);
+
+    }
 }

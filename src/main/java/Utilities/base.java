@@ -1,5 +1,7 @@
 package Utilities;
 
+import PageObjects.Grafana.dashboardPage;
+import PageObjects.Grafana.folderPage;
 import io.restassured.path.json.JsonPath;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -8,7 +10,6 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import ru.yandex.qatools.ashot.Screenshot;
 import ru.yandex.qatools.ashot.comparison.ImageDiff;
 import ru.yandex.qatools.ashot.comparison.ImageDiffer;
-import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.response.Response;
 import org.json.simple.JSONObject;
@@ -26,6 +27,7 @@ public class base
     public static Screenshot imageScreenShot;
     public static ImageDiffer imgDiff = new ImageDiffer();
     public static ImageDiff diff;
+    public static String Platform;
 
     public static DesiredCapabilities dc = new DesiredCapabilities();
 
@@ -35,6 +37,9 @@ public class base
     public static PageObjects.Grafana.serverAdminMenuPage grafanaServerAdminMenuPage;
     public static PageObjects.Grafana.serverAdminMainPage grafanaServerAdminMainPage;
     public static PageObjects.Grafana.userListPage grafanaUserListPage;
+    public static PageObjects.Grafana.plusMenuPage grafanaPlusMenuPage;
+    public static PageObjects.Grafana.folderPage grafanaFolderPage;
+    public static dashboardPage grafanaDashboardPage;
 
     public static PageObjects.Mortgage.mainPage mortgaeMain;
     public static PageObjects.ElectronDemo.mainPage electronMain;

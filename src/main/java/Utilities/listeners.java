@@ -29,7 +29,7 @@ public class listeners extends commonOps implements ITestListener
     public void onTestFailure(ITestResult test)
     {
         System.out.println("------------------ Test " + test.getName()+ " Failed --------------------");
-        if (!getData("PlatformName").equalsIgnoreCase("api"))
+        if (!Platform.equalsIgnoreCase("api"))
         saveScreenshot();
     }
 

@@ -124,7 +124,7 @@ public class commonOps extends base
 
     public static void initElectron()
     {
-        System.setProperty("webdriver.chrome.driver","C:/Automation/FullStackfinalProject/electrondriver.exe" );
+        System.setProperty("webdriver.chrome.driver","C:/Automation/FullStackfinalProject-master/electrondriver.exe" );
         //System.setProperty("webdriver.chrome.driver",getData("ElectronDriverPath"));
         ChromeOptions opt = new ChromeOptions();
         //String electronPath = getData("ElectronAppPath");
@@ -158,21 +158,20 @@ public class commonOps extends base
     }
 
     @BeforeClass
-
-    public void startSession()
+    @Parameters({"PlatformName"})
+    public void startSession(String PlatformName)
     {
-       // if(PlatformName.equalsIgnoreCase("web"))
-        String platform = getData("PlatformName");
-        if (platform.equalsIgnoreCase("web")){
+        Platform = PlatformName;
+        if (Platform.equalsIgnoreCase("web")){
             initBrowser(getData("BrowserName"));
         }
-        else if (getData("PlatformName").equalsIgnoreCase("mobile"))
+        else if (Platform.equalsIgnoreCase("mobile"))
           initMobile();
-        else if (getData("PlatformName").equalsIgnoreCase("api"))
+        else if (Platform.equalsIgnoreCase("api"))
             initAPI();
-        else if (getData("PlatformName").equalsIgnoreCase("electron"))
+        else if (Platform.equalsIgnoreCase("electron"))
             initElectron();
-        else if (getData("PlatformName").equalsIgnoreCase("desktop"))
+        else if (Platform.equalsIgnoreCase("desktop"))
             initDesktop();
         else
             throw new RuntimeException(("Invalid platform name stated"));
@@ -184,7 +183,7 @@ public class commonOps extends base
     @AfterMethod
     public void afterMethod()
     {
-        if (getData("PlatformName").equalsIgnoreCase("web"))
+        if (Platform.equalsIgnoreCase("web"))
         driver.get(getData("url"));
     }
 
@@ -192,7 +191,7 @@ public class commonOps extends base
     public void closeSession()
     {
         manageDB.closeConnection();
-        if (!getData("PlatformName").equalsIgnoreCase("api"))
+        if (!Platform.equalsIgnoreCase("api"))
         driver.quit();
 
     }

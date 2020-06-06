@@ -27,7 +27,7 @@ public class grafanaAPI extends commonOps
         verifications.text(apiFlows.getTeamProperty("teams[0].name"), "AviTeam1");
     }
 
-
+/*
     @Test(description= "Test02: Add Team And Verify")
     @Description("Test Description: UpdateTeam in Grafana And Verify it")
     public void test03_updateTeamAndVerify()
@@ -42,5 +42,5 @@ public class grafanaAPI extends commonOps
     {
         apiFlows.deleteTeam("9");
         verifications.text(apiFlows.getTeamProperty("totalCount"), "0");
-    }
+    }*/
 }

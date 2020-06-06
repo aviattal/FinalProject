@@ -14,7 +14,7 @@ public class uiActions extends commonOps
     @Step("Click on Element")
     public static void click(WebElement elem)
     {
-        String platform = getData("PlatformName");
+        String platform = Platform;
         boolean platformMobile = platform.equalsIgnoreCase("mobile");
         boolean platformElectron = platform.equalsIgnoreCase("electron");
         boolean platformDesktop = platform.equalsIgnoreCase("desktop");
@@ -27,14 +27,14 @@ public class uiActions extends commonOps
     @Step("Send Text to Text-Field")
     public static void updateText (WebElement elem, String value)
     {
-        if(!getData("PlatformName").equalsIgnoreCase("mobile"))
+        if(!Platform.equalsIgnoreCase("mobile"))
             wait.until(ExpectedConditions.visibilityOf(elem));
         elem.sendKeys(value);
     }
     @Step("Update DropDown Field")
     public static void updateDropDown (WebElement elem, String value)
     {
-        if(!getData("PlatformName").equalsIgnoreCase("mobile"))
+        if(Platform.equalsIgnoreCase("mobile"))
         wait.until(ExpectedConditions.visibilityOf(elem));
         Select myValue = new Select(elem);
         myValue.selectByVisibleText(value);

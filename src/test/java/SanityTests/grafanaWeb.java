@@ -51,6 +51,26 @@ public class grafanaWeb extends commonOps
         verifications.visualElement(grafanaLeftMenu.img_Avatar, "grafanaAvatar");
 
     }
+    @Test(description= "Test06: verify new folder doesn't have dashboard")
+    @Description("Test Description: verify new folder doesn't have dashboard")
+    public void test06_verifyNewFolder()
+    {
+        uiActions.mouseOverElements(grafanaLeftMenu.btn_plus, grafanaPlusMenuPage.link_folder);
+        uiActions.updateText(grafanaFolderPage.txt_folderName, "test_folder3");
+        uiActions.click(grafanaFolderPage.create_btn);
+        verifications.text(grafanaFolderPage.box_folder.getText(),"This folder doesn't have any dashboards yet" );
+    }
+
+    @Test(description= "Test07: verify creation of dashboard and visual")
+    @Description("Test Description: verify creation of dashboard and visual")
+    public void test07_verifyDashBoard()
+    {
+        uiActions.mouseOverElements(grafanaLeftMenu.btn_plus, grafanaPlusMenuPage.link_dashboard);
+        uiActions.click(grafanaDashboardPage.btn_chooseVisual);
+        verifications.text();
+
+
+    }
 
 }
 

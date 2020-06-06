@@ -7,8 +7,9 @@
     <user>admin</user>
     <password>admin</password>
 
-    <!--Platform -->
-    <PlatformName>electron</PlatformName>
+    <!--&lt;!&ndash;Platform &ndash;&gt;
+    <PlatformName>api</PlatformName>-->
+
     <!--Web-->
 
     <BrowserName>Chrome</BrowserName>
