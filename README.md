@@ -1,17 +1,16 @@
-This project includes Automation infrastucture tests for the following platforms:
+# Cross Platform Automation project
+## This project has one infrastructure capable of automating testing on multiple platforms such as:   
 
-WEB : Grafana Web Application on a local machine 
-API : Grafana Web Application on a local machine 
-MOBILE : Mortgage Mobile Application using Appium 
-ELECTRON : ElectronAPIDemos Application
-DESKTOP : Calculator Application
+**WEB** : Grafana Web Application on a local machine  
+**API Tests** : Grafana Web Application on a local machine  
+**MOBILE Application** : Mortgage Mobile Application using Appium  
+**ELECTRON Application** : ElectronAPIDemos Application  
+**DESKTOP Application** : Windows Calculator Application  
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+## The Following technologies included : 
 
-The Following technologies included : 
-
-a. Jenkins : Tests Execution by Jenkins - for each platform there is a dedicated Job.
-b. Allure Reports : Integrated reports system
-c. Maven
-d. TestNG
-e. XML Configuration files
+a. **Jenkins** : Tests Execution by Jenkins - for each platform there is a dedicated Job  
+b. **Allure Reports** : Integrated reports system  
+c. **Maven**  
+d. **TestNG**  
+e. **XML Configuration files**  
