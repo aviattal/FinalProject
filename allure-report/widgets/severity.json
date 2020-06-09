@@ -1,61 +1,401 @@
 [ {
-  "uid" : "98b3e30a9278e400",
-  "name" : "Test01: Login to Grafana with DB",
+  "uid" : "b3260de2fd123d56",
+  "name" : "createScreenShot",
   "time" : {
-    "start" : 1588427006989,
-    "stop" : 1588427007186,
-    "duration" : 197
+    "start" : 1590258284772,
+    "stop" : 1590258284772,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "6326d47dbdc11f41",
-  "name" : "Test05: verify Avatar",
+  "uid" : "f13fc7ff0b83cf44",
+  "name" : "Test02: Add Team And Verify",
   "time" : {
-    "start" : 1588427165600,
-    "stop" : 1588427167587,
-    "duration" : 1987
+    "start" : 1590258284587,
+    "stop" : 1590258284587,
+    "duration" : 0
   },
-  "status" : "passed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "b8f7155508c0efa0",
-  "name" : "Test04: Delete Last User and Verify Users",
+  "uid" : "fa8bd6ebf278b183",
+  "name" : "Test06: verify new folder doesn't have dashboard",
   "time" : {
-    "start" : 1588427162878,
-    "stop" : 1588427165166,
-    "duration" : 2288
+    "start" : 1591719312586,
+    "stop" : 1591719312590,
+    "duration" : 4
   },
-  "status" : "passed",
+  "status" : "skipped",
   "severity" : "normal"
 }, {
-  "uid" : "6e47c16cbc2fc033",
-  "name" : "Test01: Login to Grafana",
+  "uid" : "24685800f26bc751",
+  "name" : "startSession",
   "time" : {
-    "start" : 1588427154052,
-    "stop" : 1588427156745,
-    "duration" : 2693
+    "start" : 1591176560196,
+    "stop" : 1591176560198,
+    "duration" : 2
   },
-  "status" : "passed",
+  "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "df9dbb24ba456138",
+  "uid" : "bf03a4ec4c5634e",
+  "name" : "Test01: Verify Addiction Command",
+  "time" : {
+    "start" : 1591184283393,
+    "stop" : 1591184283399,
+    "duration" : 6
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "3337ce178eee9ae8",
   "name" : "Test02: Verify Default Users",
   "time" : {
-    "start" : 1588427157617,
-    "stop" : 1588427158474,
-    "duration" : 857
+    "start" : 1591720556273,
+    "stop" : 1591720557156,
+    "duration" : 883
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "4084d17594f00e8a",
-  "name" : "Test03: Add and Verify Users",
+  "uid" : "9a542a6110de709c",
+  "name" : "startSession",
   "time" : {
-    "start" : 1588427158858,
-    "stop" : 1588427162378,
-    "duration" : 3520
+    "start" : 1591184283225,
+    "stop" : 1591184283229,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "bf1b2a550595c6a1",
+  "name" : "Test01: Verify Mortgage",
+  "time" : {
+    "start" : 1591180024171,
+    "stop" : 1591180031577,
+    "duration" : 7406
   },
   "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "166356d716aeb351",
+  "name" : "Test01: Add Team And Verify",
+  "time" : {
+    "start" : 1591173908048,
+    "stop" : 1591173910950,
+    "duration" : 2902
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9760e592c786842",
+  "name" : "Test06: verify new folder doesn't have dashboard",
+  "time" : {
+    "start" : 1591720567047,
+    "stop" : 1591720569854,
+    "duration" : 2807
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a95d8375bcfa0e15",
+  "name" : "Test03: Add and Verify Users",
+  "time" : {
+    "start" : 1591720557521,
+    "stop" : 1591720560354,
+    "duration" : 2833
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9e17e0c1f60ae2dc",
+  "name" : "Test01: Verify Screen Resolution ",
+  "time" : {
+    "start" : 1591176560300,
+    "stop" : 1591176560302,
+    "duration" : 2
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "1433e2888d9183fb",
+  "name" : "Test02: Verify Subtraction Command",
+  "time" : {
+    "start" : 1591184283413,
+    "stop" : 1591184283414,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d50eae128155b792",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1591182648659,
+    "stop" : 1591182648664,
+    "duration" : 5
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "33e3435c14ccf06c",
+  "name" : "Test01: Verify Addiction Command",
+  "time" : {
+    "start" : 1591184928578,
+    "stop" : 1591184933955,
+    "duration" : 5377
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c61fe686a036043",
+  "name" : "Test04: Delete Last User and Verify Users",
+  "time" : {
+    "start" : 1591720560901,
+    "stop" : 1591720563163,
+    "duration" : 2262
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "cd108bfdf87fd39c",
+  "name" : "Test06: verify new folder doesn't have dashboard",
+  "time" : {
+    "start" : 1591189521181,
+    "stop" : 1591189521602,
+    "duration" : 421
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "704b8c9f9203fe60",
+  "name" : "Test01: Add Team And Verify",
+  "time" : {
+    "start" : 1591170536550,
+    "stop" : 1591170538133,
+    "duration" : 1583
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f9ec72443abac047",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1591168082407,
+    "stop" : 1591168082408,
+    "duration" : 1
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "ca9f154ff07a5ea0",
+  "name" : "Test05: verify Avatar",
+  "time" : {
+    "start" : 1591168283930,
+    "stop" : 1591168285179,
+    "duration" : 1249
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3a0057cd80f3a838",
+  "name" : "Test02: Verify Application Version Number ",
+  "time" : {
+    "start" : 1591176560313,
+    "stop" : 1591176560313,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "40e82f45734dad10",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1590258284756,
+    "stop" : 1590258284756,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "41c459d003a9e10a",
+  "name" : "Test03: Delete Team And Verify",
+  "time" : {
+    "start" : 1590258284606,
+    "stop" : 1590258284607,
+    "duration" : 1
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5fbb781026462e1f",
+  "name" : "Test05: verify Avatar",
+  "time" : {
+    "start" : 1591720563757,
+    "stop" : 1591720566361,
+    "duration" : 2604
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aba8c95d963415ff",
+  "name" : "Test07: verify creation of dashboard and visual",
+  "time" : {
+    "start" : 1591720570504,
+    "stop" : 1591720572488,
+    "duration" : 1984
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1603d386d84763dc",
+  "name" : "Test01: Verify Mortgage",
+  "time" : {
+    "start" : 1590258284720,
+    "stop" : 1590258284720,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "7ffb55843ac58076",
+  "name" : "Test03: Add and Verify Users",
+  "time" : {
+    "start" : 1591168280717,
+    "stop" : 1591168282232,
+    "duration" : 1515
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f0bae31cbdf2a78e",
+  "name" : "Test02: Verify Default Users",
+  "time" : {
+    "start" : 1591168279849,
+    "stop" : 1591168280431,
+    "duration" : 582
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "43a9e36e46926f7b",
+  "name" : "Test01: Login to Grafana",
+  "time" : {
+    "start" : 1591720551371,
+    "stop" : 1591720555378,
+    "duration" : 4007
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "fade0c97e78167f7",
+  "name" : "Test02: Verify Application Version Number ",
+  "time" : {
+    "start" : 1591176754953,
+    "stop" : 1591176755405,
+    "duration" : 452
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aab4882fdab37651",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1590258284690,
+    "stop" : 1590258284690,
+    "duration" : 0
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6becf90e1a218899",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1591719312340,
+    "stop" : 1591719312344,
+    "duration" : 4
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6bcdc77a3ea84974",
+  "name" : "Test04: Delete Last User and Verify Users",
+  "time" : {
+    "start" : 1591168282507,
+    "stop" : 1591168283678,
+    "duration" : 1171
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7437f16d4d749819",
+  "name" : "Test02: Verify Subtraction Command",
+  "time" : {
+    "start" : 1591184934322,
+    "stop" : 1591184939142,
+    "duration" : 4820
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "40cb56d5be072d10",
+  "name" : "Test03: Verify Multiply Command",
+  "time" : {
+    "start" : 1591184939161,
+    "stop" : 1591184945237,
+    "duration" : 6076
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5633ab9c0d4df3a3",
+  "name" : "Test01: Verify Screen Resolution ",
+  "time" : {
+    "start" : 1591176754102,
+    "stop" : 1591176754785,
+    "duration" : 683
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "30ecd675bc9391a9",
+  "name" : "Test06: verify new folder doesn't have dashboard",
+  "time" : {
+    "start" : 1591189130673,
+    "stop" : 1591189131481,
+    "duration" : 808
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "a3ea6b0995b29405",
+  "name" : "Test06: verify new folder doesn't have dashboard",
+  "time" : {
+    "start" : 1591189282841,
+    "stop" : 1591189282845,
+    "duration" : 4
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "d7c29cc32439d2cd",
+  "name" : "Test01: Login to Grafana",
+  "time" : {
+    "start" : 1591168277432,
+    "stop" : 1591168279425,
+    "duration" : 1993
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3fb5d1e64c2c2265",
+  "name" : "startSession",
+  "time" : {
+    "start" : 1591174403674,
+    "stop" : 1591174403675,
+    "duration" : 1
+  },
+  "status" : "broken",
   "severity" : "normal"
 } ]

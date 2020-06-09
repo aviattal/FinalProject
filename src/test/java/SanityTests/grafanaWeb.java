@@ -56,7 +56,7 @@ public class grafanaWeb extends commonOps
     public void test06_verifyNewFolder()
     {
         uiActions.mouseOverElements(grafanaLeftMenu.btn_plus, grafanaPlusMenuPage.link_folder);
-        uiActions.updateText(grafanaFolderPage.txt_folderName, "test_folder3");
+        uiActions.updateText(grafanaFolderPage.txt_folderName, "test_folder4");
         uiActions.click(grafanaFolderPage.create_btn);
         verifications.text(grafanaFolderPage.box_folder.getText(),"This folder doesn't have any dashboards yet" );
     }
@@ -67,11 +67,10 @@ public class grafanaWeb extends commonOps
     {
         uiActions.mouseOverElements(grafanaLeftMenu.btn_plus, grafanaPlusMenuPage.link_dashboard);
         uiActions.click(grafanaDashboardPage.btn_chooseVisual);
-        verifications.text();
+        verifications.text(grafanaNewDashboardPage.txt_headerVisual.getText(),"Visualization");
 
 
     }
-
 }
 
 

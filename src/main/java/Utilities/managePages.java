@@ -18,6 +18,7 @@ public class managePages extends base
         grafanaFolderPage = PageFactory.initElements(driver, PageObjects.Grafana.folderPage.class);
 
         grafanaDashboardPage = PageFactory.initElements(driver, PageObjects.Grafana.dashboardPage.class);
+        grafanaNewDashboardPage = PageFactory.initElements(driver, PageObjects.Grafana.newDashboardPage.class);
 
         mortgaeMain = PageFactory.initElements(driver, PageObjects.Mortgage.mainPage.class);
         electronMain = PageFactory.initElements(driver, PageObjects.ElectronDemo.mainPage.class);

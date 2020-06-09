@@ -2,97 +2,603 @@
   "uid" : "98d3104e051c652961429bf95fa0b5d6",
   "name" : "suites",
   "children" : [ {
-    "name" : "Suite",
+    "name" : "Default Suite",
     "children" : [ {
-      "name" : "Web Tests",
+      "name" : "FullStackfinalProject-master",
       "children" : [ {
-        "name" : "SanityTests.grafanaWebDB",
+        "name" : "SanityTests.grafanaAPI",
         "children" : [ {
-          "name" : "Test01: Login to Grafana with DB",
-          "uid" : "98b3e30a9278e400",
-          "parentUid" : "c9b947e53f207dab9ea0ca1db909eb0e",
+          "name" : "Test02: Add Team And Verify",
+          "uid" : "f13fc7ff0b83cf44",
+          "parentUid" : "19f2c0ae70f503ccc35920651eb36915",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1590258284587,
+            "stop" : 1590258284587,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test03: Delete Team And Verify",
+          "uid" : "41c459d003a9e10a",
+          "parentUid" : "19f2c0ae70f503ccc35920651eb36915",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1590258284606,
+            "stop" : 1590258284607,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "startSession",
+          "uid" : "f9ec72443abac047",
+          "parentUid" : "19f2c0ae70f503ccc35920651eb36915",
+          "status" : "broken",
+          "time" : {
+            "start" : 1591168082407,
+            "stop" : 1591168082408,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test01: Add Team And Verify",
+          "uid" : "704b8c9f9203fe60",
+          "parentUid" : "19f2c0ae70f503ccc35920651eb36915",
           "status" : "passed",
           "time" : {
-            "start" : 1588427006989,
-            "stop" : 1588427007186,
-            "duration" : 197
+            "start" : 1591170536550,
+            "stop" : 1591170538133,
+            "duration" : 1583
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
-        "uid" : "c9b947e53f207dab9ea0ca1db909eb0e"
+        "uid" : "19f2c0ae70f503ccc35920651eb36915"
+      }, {
+        "name" : "SanityTests.mortageMobile",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "aab4882fdab37651",
+          "parentUid" : "6ac3279331c64742005b94661849dbd7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1590258284690,
+            "stop" : 1590258284690,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test01: Verify Mortgage",
+          "uid" : "1603d386d84763dc",
+          "parentUid" : "6ac3279331c64742005b94661849dbd7",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1590258284720,
+            "stop" : 1590258284720,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "6ac3279331c64742005b94661849dbd7"
+      }, {
+        "name" : "Helpers.visualTesting",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "40e82f45734dad10",
+          "parentUid" : "87e2ac1c90b1f2b3a14bba0aab939f8d",
+          "status" : "broken",
+          "time" : {
+            "start" : 1590258284756,
+            "stop" : 1590258284756,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "createScreenShot",
+          "uid" : "b3260de2fd123d56",
+          "parentUid" : "87e2ac1c90b1f2b3a14bba0aab939f8d",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1590258284772,
+            "stop" : 1590258284772,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "87e2ac1c90b1f2b3a14bba0aab939f8d"
       }, {
         "name" : "SanityTests.grafanaWeb",
         "children" : [ {
           "name" : "Test01: Login to Grafana",
-          "uid" : "6e47c16cbc2fc033",
-          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "uid" : "d7c29cc32439d2cd",
+          "parentUid" : "4362282bba4c00adbfb416d4928ebb9a",
           "status" : "passed",
           "time" : {
-            "start" : 1588427154052,
-            "stop" : 1588427156745,
-            "duration" : 2693
+            "start" : 1591168277432,
+            "stop" : 1591168279425,
+            "duration" : 1993
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Test02: Verify Default Users",
-          "uid" : "df9dbb24ba456138",
-          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "uid" : "f0bae31cbdf2a78e",
+          "parentUid" : "4362282bba4c00adbfb416d4928ebb9a",
           "status" : "passed",
           "time" : {
-            "start" : 1588427157617,
-            "stop" : 1588427158474,
-            "duration" : 857
+            "start" : 1591168279849,
+            "stop" : 1591168280431,
+            "duration" : 582
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Test03: Add and Verify Users",
-          "uid" : "4084d17594f00e8a",
-          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "uid" : "7ffb55843ac58076",
+          "parentUid" : "4362282bba4c00adbfb416d4928ebb9a",
           "status" : "passed",
           "time" : {
-            "start" : 1588427158858,
-            "stop" : 1588427162378,
-            "duration" : 3520
+            "start" : 1591168280717,
+            "stop" : 1591168282232,
+            "duration" : 1515
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Test04: Delete Last User and Verify Users",
-          "uid" : "b8f7155508c0efa0",
-          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "uid" : "6bcdc77a3ea84974",
+          "parentUid" : "4362282bba4c00adbfb416d4928ebb9a",
           "status" : "passed",
           "time" : {
-            "start" : 1588427162878,
-            "stop" : 1588427165166,
-            "duration" : 2288
+            "start" : 1591168282507,
+            "stop" : 1591168283678,
+            "duration" : 1171
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         }, {
           "name" : "Test05: verify Avatar",
-          "uid" : "6326d47dbdc11f41",
-          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "uid" : "ca9f154ff07a5ea0",
+          "parentUid" : "4362282bba4c00adbfb416d4928ebb9a",
           "status" : "passed",
           "time" : {
-            "start" : 1588427165600,
-            "stop" : 1588427167587,
-            "duration" : 1987
+            "start" : 1591168283930,
+            "stop" : 1591168285179,
+            "duration" : 1249
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test06: verify new folder doesn't have dashboard",
+          "uid" : "a3ea6b0995b29405",
+          "parentUid" : "4362282bba4c00adbfb416d4928ebb9a",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1591189282841,
+            "stop" : 1591189282845,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "startSession",
+          "uid" : "6becf90e1a218899",
+          "parentUid" : "4362282bba4c00adbfb416d4928ebb9a",
+          "status" : "broken",
+          "time" : {
+            "start" : 1591719312340,
+            "stop" : 1591719312344,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test06: verify new folder doesn't have dashboard",
+          "uid" : "fa8bd6ebf278b183",
+          "parentUid" : "4362282bba4c00adbfb416d4928ebb9a",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1591719312586,
+            "stop" : 1591719312590,
+            "duration" : 4
           },
           "flaky" : false,
           "newFailed" : false,
           "parameters" : [ ]
         } ],
+        "uid" : "4362282bba4c00adbfb416d4928ebb9a"
+      }, {
+        "name" : "SanityTests.electronDemo",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "24685800f26bc751",
+          "parentUid" : "5eaf0facecc3ce14f2a3648733c69cdd",
+          "status" : "broken",
+          "time" : {
+            "start" : 1591176560196,
+            "stop" : 1591176560198,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test01: Verify Screen Resolution ",
+          "uid" : "9e17e0c1f60ae2dc",
+          "parentUid" : "5eaf0facecc3ce14f2a3648733c69cdd",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1591176560300,
+            "stop" : 1591176560302,
+            "duration" : 2
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test02: Verify Application Version Number ",
+          "uid" : "3a0057cd80f3a838",
+          "parentUid" : "5eaf0facecc3ce14f2a3648733c69cdd",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1591176560313,
+            "stop" : 1591176560313,
+            "duration" : 0
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "5eaf0facecc3ce14f2a3648733c69cdd"
+      }, {
+        "name" : "SanityTests.calculatorDesktop",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "9a542a6110de709c",
+          "parentUid" : "50cf178b28f7a0602a8eeb1874fb6ba6",
+          "status" : "broken",
+          "time" : {
+            "start" : 1591184283225,
+            "stop" : 1591184283229,
+            "duration" : 4
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test01: Verify Addiction Command",
+          "uid" : "bf03a4ec4c5634e",
+          "parentUid" : "50cf178b28f7a0602a8eeb1874fb6ba6",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1591184283393,
+            "stop" : 1591184283399,
+            "duration" : 6
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "Test02: Verify Subtraction Command",
+          "uid" : "1433e2888d9183fb",
+          "parentUid" : "50cf178b28f7a0602a8eeb1874fb6ba6",
+          "status" : "skipped",
+          "time" : {
+            "start" : 1591184283413,
+            "stop" : 1591184283414,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "50cf178b28f7a0602a8eeb1874fb6ba6"
+      } ],
+      "uid" : "91811f1e7734b45fd90346d98695f3a1"
+    } ],
+    "uid" : "8399274b4bb69ec8699907dd6ef7de4e"
+  }, {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "API Tests",
+      "children" : [ {
+        "name" : "SanityTests.grafanaAPI",
+        "children" : [ {
+          "name" : "Test01: Add Team And Verify",
+          "uid" : "166356d716aeb351",
+          "parentUid" : "9db40972b02db88800fabef1ad3d62d8",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591173908048,
+            "stop" : 1591173910950,
+            "duration" : 2902
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "api" ]
+        } ],
+        "uid" : "9db40972b02db88800fabef1ad3d62d8"
+      } ],
+      "uid" : "4ed70f54fda3286e80a05bd83e56a3ad"
+    }, {
+      "name" : "Electron Tests",
+      "children" : [ {
+        "name" : "SanityTests.electronDemo",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "3fb5d1e64c2c2265",
+          "parentUid" : "95f4ea9f57457770b629651d4ab3e8cf",
+          "status" : "broken",
+          "time" : {
+            "start" : 1591174403674,
+            "stop" : 1591174403675,
+            "duration" : 1
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        }, {
+          "name" : "Test01: Verify Screen Resolution ",
+          "uid" : "5633ab9c0d4df3a3",
+          "parentUid" : "95f4ea9f57457770b629651d4ab3e8cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591176754102,
+            "stop" : 1591176754785,
+            "duration" : 683
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        }, {
+          "name" : "Test02: Verify Application Version Number ",
+          "uid" : "fade0c97e78167f7",
+          "parentUid" : "95f4ea9f57457770b629651d4ab3e8cf",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591176754953,
+            "stop" : 1591176755405,
+            "duration" : 452
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "electron" ]
+        } ],
+        "uid" : "95f4ea9f57457770b629651d4ab3e8cf"
+      } ],
+      "uid" : "88dd1c8a90831c85bd7e904fb72432f6"
+    }, {
+      "name" : "Mobile Tests",
+      "children" : [ {
+        "name" : "SanityTests.mortageMobile",
+        "children" : [ {
+          "name" : "Test01: Verify Mortgage",
+          "uid" : "bf1b2a550595c6a1",
+          "parentUid" : "9d35893af9d8e68dee9ff2a85dd54cdc",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591180024171,
+            "stop" : 1591180031577,
+            "duration" : 7406
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "mobile" ]
+        } ],
+        "uid" : "9d35893af9d8e68dee9ff2a85dd54cdc"
+      } ],
+      "uid" : "8c0e091f779f0cece321e27da4ce33f3"
+    }, {
+      "name" : "Web Tests",
+      "children" : [ {
+        "name" : "SanityTests.calculatorDesktop",
+        "children" : [ {
+          "name" : "startSession",
+          "uid" : "d50eae128155b792",
+          "parentUid" : "0ea31c96bb13f0ddf9e04db84dd2eb1f",
+          "status" : "broken",
+          "time" : {
+            "start" : 1591182648659,
+            "stop" : 1591182648664,
+            "duration" : 5
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "desktop" ]
+        } ],
+        "uid" : "0ea31c96bb13f0ddf9e04db84dd2eb1f"
+      }, {
+        "name" : "SanityTests.grafanaWeb",
+        "children" : [ {
+          "name" : "Test06: verify new folder doesn't have dashboard",
+          "uid" : "30ecd675bc9391a9",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "broken",
+          "time" : {
+            "start" : 1591189130673,
+            "stop" : 1591189131481,
+            "duration" : 808
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test06: verify new folder doesn't have dashboard",
+          "uid" : "cd108bfdf87fd39c",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "broken",
+          "time" : {
+            "start" : 1591189521181,
+            "stop" : 1591189521602,
+            "duration" : 421
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test01: Login to Grafana",
+          "uid" : "43a9e36e46926f7b",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591720551371,
+            "stop" : 1591720555378,
+            "duration" : 4007
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test02: Verify Default Users",
+          "uid" : "3337ce178eee9ae8",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591720556273,
+            "stop" : 1591720557156,
+            "duration" : 883
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test03: Add and Verify Users",
+          "uid" : "a95d8375bcfa0e15",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591720557521,
+            "stop" : 1591720560354,
+            "duration" : 2833
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test04: Delete Last User and Verify Users",
+          "uid" : "c61fe686a036043",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591720560901,
+            "stop" : 1591720563163,
+            "duration" : 2262
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test05: verify Avatar",
+          "uid" : "5fbb781026462e1f",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591720563757,
+            "stop" : 1591720566361,
+            "duration" : 2604
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test06: verify new folder doesn't have dashboard",
+          "uid" : "f9760e592c786842",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591720567047,
+            "stop" : 1591720569854,
+            "duration" : 2807
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        }, {
+          "name" : "Test07: verify creation of dashboard and visual",
+          "uid" : "aba8c95d963415ff",
+          "parentUid" : "2c6a77e3025b87af7d0ad31552c67018",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591720570504,
+            "stop" : 1591720572488,
+            "duration" : 1984
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "web" ]
+        } ],
         "uid" : "2c6a77e3025b87af7d0ad31552c67018"
       } ],
       "uid" : "021ae6ebaf24613400055f41a8f6b406"
+    }, {
+      "name" : "Desktop Tests",
+      "children" : [ {
+        "name" : "SanityTests.calculatorDesktop",
+        "children" : [ {
+          "name" : "Test01: Verify Addiction Command",
+          "uid" : "33e3435c14ccf06c",
+          "parentUid" : "ea0c32675d4e37942da9b8bb92c68d44",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591184928578,
+            "stop" : 1591184933955,
+            "duration" : 5377
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "desktop" ]
+        }, {
+          "name" : "Test02: Verify Subtraction Command",
+          "uid" : "7437f16d4d749819",
+          "parentUid" : "ea0c32675d4e37942da9b8bb92c68d44",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591184934322,
+            "stop" : 1591184939142,
+            "duration" : 4820
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "desktop" ]
+        }, {
+          "name" : "Test03: Verify Multiply Command",
+          "uid" : "40cb56d5be072d10",
+          "parentUid" : "ea0c32675d4e37942da9b8bb92c68d44",
+          "status" : "passed",
+          "time" : {
+            "start" : 1591184939161,
+            "stop" : 1591184945237,
+            "duration" : 6076
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ "desktop" ]
+        } ],
+        "uid" : "ea0c32675d4e37942da9b8bb92c68d44"
+      } ],
+      "uid" : "a85208ea6d1dcf330c707ffc4f2851fd"
     } ],
     "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
   } ]

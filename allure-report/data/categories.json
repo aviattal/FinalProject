@@ -1,5 +1,155 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
   "name" : "categories",
-  "children" : [ ]
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "The driver executable does not exist: C:\\Automation\\FullStackfinalProject\\electrondriver.exe",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "aab4882fdab37651",
+        "parentUid" : "56075066ce1c3bc715f07d951e1dfd2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590258284690,
+          "stop" : 1590258284690,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "40e82f45734dad10",
+        "parentUid" : "56075066ce1c3bc715f07d951e1dfd2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590258284756,
+          "stop" : 1590258284756,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "f9ec72443abac047",
+        "parentUid" : "56075066ce1c3bc715f07d951e1dfd2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591168082407,
+          "stop" : 1591168082408,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "3fb5d1e64c2c2265",
+        "parentUid" : "56075066ce1c3bc715f07d951e1dfd2c",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591174403674,
+          "stop" : 1591174403675,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "56075066ce1c3bc715f07d951e1dfd2c"
+    }, {
+      "name" : "\nParameter 'PlatformName' is required by BeforeClass on method startSession but has not been marked @Optional or defined\nin C:\\Users\\aviat\\.IdeaIC2019.3\\system\\temp-testng-customsuite.xml",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "24685800f26bc751",
+        "parentUid" : "2b8dba7743652f7684299a2347cf4643",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591176560196,
+          "stop" : 1591176560198,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "9a542a6110de709c",
+        "parentUid" : "2b8dba7743652f7684299a2347cf4643",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591184283225,
+          "stop" : 1591184283229,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "6becf90e1a218899",
+        "parentUid" : "2b8dba7743652f7684299a2347cf4643",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591719312340,
+          "stop" : 1591719312344,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2b8dba7743652f7684299a2347cf4643"
+    }, {
+      "name" : "io.appium.java_client.AppiumDriver: method <init>(Ljava/net/URL;Lorg/openqa/selenium/Capabilities;)V not found",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "d50eae128155b792",
+        "parentUid" : "cda9a34302f033c63daf76fabcc20477",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591182648659,
+          "stop" : 1591182648664,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "cda9a34302f033c63daf76fabcc20477"
+    }, {
+      "name" : "java.lang.NullPointerException",
+      "children" : [ {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "30ecd675bc9391a9",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591189130673,
+          "stop" : 1591189131481,
+          "duration" : 808
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "cd108bfdf87fd39c",
+        "parentUid" : "5592898b36d684905e31486a23088bda",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591189521181,
+          "stop" : 1591189521602,
+          "duration" : 421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "5592898b36d684905e31486a23088bda"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
 }

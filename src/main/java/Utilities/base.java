@@ -2,6 +2,7 @@ package Utilities;
 
 import PageObjects.Grafana.dashboardPage;
 import PageObjects.Grafana.folderPage;
+import PageObjects.Grafana.newDashboardPage;
 import io.restassured.path.json.JsonPath;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.interactions.Actions;
@@ -40,6 +41,7 @@ public class base
     public static PageObjects.Grafana.plusMenuPage grafanaPlusMenuPage;
     public static PageObjects.Grafana.folderPage grafanaFolderPage;
     public static dashboardPage grafanaDashboardPage;
+    public static newDashboardPage grafanaNewDashboardPage;
 
     public static PageObjects.Mortgage.mainPage mortgaeMain;
     public static PageObjects.ElectronDemo.mainPage electronMain;

@@ -4,91 +4,2613 @@
   "children" : [ {
     "name" : "DESKTOP-5A80V1T",
     "children" : [ {
-      "name" : "34280@DESKTOP-5A80V1T.main(1)",
+      "name" : "10912@DESKTOP-5A80V1T.main(1)",
       "children" : [ {
-        "name" : "Test01: Login to Grafana",
-        "uid" : "6e47c16cbc2fc033",
-        "parentUid" : "da668e991a00f61edbf8ac7bdbd3fde4",
-        "status" : "passed",
+        "name" : "Test03: Delete Team And Verify",
+        "uid" : "41c459d003a9e10a",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "skipped",
         "time" : {
-          "start" : 1588427154052,
-          "stop" : 1588427156745,
-          "duration" : 2693
+          "start" : 1590258284606,
+          "stop" : 1590258284607,
+          "duration" : 1
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Test02: Verify Default Users",
-        "uid" : "df9dbb24ba456138",
-        "parentUid" : "da668e991a00f61edbf8ac7bdbd3fde4",
-        "status" : "passed",
+        "name" : "startSession",
+        "uid" : "e332c0ada7c66d57",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "broken",
         "time" : {
-          "start" : 1588427157617,
-          "stop" : 1588427158474,
-          "duration" : 857
+          "start" : 1590258284839,
+          "stop" : 1590258284839,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Test03: Add and Verify Users",
-        "uid" : "4084d17594f00e8a",
-        "parentUid" : "da668e991a00f61edbf8ac7bdbd3fde4",
-        "status" : "passed",
+        "name" : "startSession",
+        "uid" : "317c0e4e45dba3dd",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "broken",
         "time" : {
-          "start" : 1588427158858,
-          "stop" : 1588427162378,
-          "duration" : 3520
+          "start" : 1590258284128,
+          "stop" : 1590258284132,
+          "duration" : 4
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "Test04: Delete Last User and Verify Users",
-        "uid" : "b8f7155508c0efa0",
-        "parentUid" : "da668e991a00f61edbf8ac7bdbd3fde4",
-        "status" : "passed",
+        "name" : "Test01: Add Team And Verify",
+        "uid" : "c129d7bb759cac11",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "skipped",
         "time" : {
-          "start" : 1588427162878,
-          "stop" : 1588427165166,
-          "duration" : 2288
+          "start" : 1590258284572,
+          "stop" : 1590258284572,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "f391dfb7f88ef2e8",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590258284571,
+          "stop" : 1590258284571,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Test05: verify Avatar",
-        "uid" : "6326d47dbdc11f41",
-        "parentUid" : "da668e991a00f61edbf8ac7bdbd3fde4",
-        "status" : "passed",
+        "uid" : "a33938fd40aeec78",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "skipped",
         "time" : {
-          "start" : 1588427165600,
-          "stop" : 1588427167587,
-          "duration" : 1987
+          "start" : 1590258284942,
+          "stop" : 1590258284946,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "c6fdd21b3ee9d1cc",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590258284911,
+          "stop" : 1590258284933,
+          "duration" : 22
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "aab4882fdab37651",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590258284690,
+          "stop" : 1590258284690,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02: Verify Application Version Number ",
+        "uid" : "7de7ad6b4049402c",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590258284508,
+          "stop" : 1590258284508,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02: Add Team And Verify",
+        "uid" : "f13fc7ff0b83cf44",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590258284587,
+          "stop" : 1590258284587,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "8f94f499e9fc1cac",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590258284853,
+          "stop" : 1590258284853,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "createScreenShot",
+        "uid" : "b3260de2fd123d56",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590258284772,
+          "stop" : 1590258284772,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "40e82f45734dad10",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590258284756,
+          "stop" : 1590258284756,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Verify Addistion Command",
+        "uid" : "b165029636ec3839",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590258284400,
+          "stop" : 1590258284410,
+          "duration" : 10
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "f1f03eea32968789",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590258284471,
+          "stop" : 1590258284471,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Verify Screen Resolution ",
+        "uid" : "9d8069e3342987d1",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590258284487,
+          "stop" : 1590258284491,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Verify Mortgage",
+        "uid" : "1603d386d84763dc",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590258284720,
+          "stop" : 1590258284720,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "f5fe7236d2cee5e5",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590258284906,
+          "stop" : 1590258284906,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "87bbf9b513c077a5",
+        "parentUid" : "e21f3c878a47b3d23252cf579de5ed85",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590258284857,
+          "stop" : 1590258284857,
+          "duration" : 0
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "da668e991a00f61edbf8ac7bdbd3fde4"
+      "uid" : "e21f3c878a47b3d23252cf579de5ed85"
     }, {
-      "name" : "46332@DESKTOP-5A80V1T.main(1)",
+      "name" : "20940@DESKTOP-5A80V1T.main(1)",
       "children" : [ {
-        "name" : "Test01: Login to Grafana with DB",
-        "uid" : "98b3e30a9278e400",
-        "parentUid" : "a4394e1025d6cdf7bb22abc2fb3849d9",
+        "name" : "Test02: Verify Default Users",
+        "uid" : "194f06dce0ba3847",
+        "parentUid" : "1d19625604ed2f63be8024d6eeb752c9",
         "status" : "passed",
         "time" : {
-          "start" : 1588427006989,
-          "stop" : 1588427007186,
-          "duration" : 197
+          "start" : 1591170073081,
+          "stop" : 1591170073950,
+          "duration" : 869
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "bfac3c7600cd1710",
+        "parentUid" : "1d19625604ed2f63be8024d6eeb752c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591170074341,
+          "stop" : 1591170076131,
+          "duration" : 1790
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "66a6f0ca1a5f6ec4",
+        "parentUid" : "1d19625604ed2f63be8024d6eeb752c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591170076408,
+          "stop" : 1591170077659,
+          "duration" : 1251
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "73eb4c202c7ed6ef",
+        "parentUid" : "1d19625604ed2f63be8024d6eeb752c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591170077985,
+          "stop" : 1591170079506,
+          "duration" : 1521
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "33d553dd47e0c79a",
+        "parentUid" : "1d19625604ed2f63be8024d6eeb752c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591170070414,
+          "stop" : 1591170072577,
+          "duration" : 2163
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "1d19625604ed2f63be8024d6eeb752c9"
+    }, {
+      "name" : "15244@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test05: verify Avatar",
+        "uid" : "5fbb781026462e1f",
+        "parentUid" : "478b2d8510d95322433d3b1057c1df3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591720563757,
+          "stop" : 1591720566361,
+          "duration" : 2604
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "f9760e592c786842",
+        "parentUid" : "478b2d8510d95322433d3b1057c1df3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591720567047,
+          "stop" : 1591720569854,
+          "duration" : 2807
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "a95d8375bcfa0e15",
+        "parentUid" : "478b2d8510d95322433d3b1057c1df3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591720557521,
+          "stop" : 1591720560354,
+          "duration" : 2833
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07: verify creation of dashboard and visual",
+        "uid" : "aba8c95d963415ff",
+        "parentUid" : "478b2d8510d95322433d3b1057c1df3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591720570504,
+          "stop" : 1591720572488,
+          "duration" : 1984
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "c61fe686a036043",
+        "parentUid" : "478b2d8510d95322433d3b1057c1df3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591720560901,
+          "stop" : 1591720563163,
+          "duration" : 2262
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "43a9e36e46926f7b",
+        "parentUid" : "478b2d8510d95322433d3b1057c1df3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591720551371,
+          "stop" : 1591720555378,
+          "duration" : 4007
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "3337ce178eee9ae8",
+        "parentUid" : "478b2d8510d95322433d3b1057c1df3a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591720556273,
+          "stop" : 1591720557156,
+          "duration" : 883
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "478b2d8510d95322433d3b1057c1df3a"
+    }, {
+      "name" : "17924@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "f0bae31cbdf2a78e",
+        "parentUid" : "8ffb500452de1d45fd3fb44e769c364d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591168279849,
+          "stop" : 1591168280431,
+          "duration" : 582
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "6bcdc77a3ea84974",
+        "parentUid" : "8ffb500452de1d45fd3fb44e769c364d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591168282507,
+          "stop" : 1591168283678,
+          "duration" : 1171
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "ca9f154ff07a5ea0",
+        "parentUid" : "8ffb500452de1d45fd3fb44e769c364d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591168283930,
+          "stop" : 1591168285179,
+          "duration" : 1249
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "7ffb55843ac58076",
+        "parentUid" : "8ffb500452de1d45fd3fb44e769c364d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591168280717,
+          "stop" : 1591168282232,
+          "duration" : 1515
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "d7c29cc32439d2cd",
+        "parentUid" : "8ffb500452de1d45fd3fb44e769c364d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591168277432,
+          "stop" : 1591168279425,
+          "duration" : 1993
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "a4394e1025d6cdf7bb22abc2fb3849d9"
+      "uid" : "8ffb500452de1d45fd3fb44e769c364d"
+    }, {
+      "name" : "5944@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "58b865b4684989e0",
+        "parentUid" : "09dec0c328fc84bd5fd2b7b995ef44c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192796406,
+          "stop" : 1591192798101,
+          "duration" : 1695
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "fc36b992b4a3164a",
+        "parentUid" : "09dec0c328fc84bd5fd2b7b995ef44c9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591192801580,
+          "stop" : 1591192804329,
+          "duration" : 2749
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "e31dfedfa6dce0f8",
+        "parentUid" : "09dec0c328fc84bd5fd2b7b995ef44c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192798343,
+          "stop" : 1591192799756,
+          "duration" : 1413
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "e17b5f5d25dba4fc",
+        "parentUid" : "09dec0c328fc84bd5fd2b7b995ef44c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192792856,
+          "stop" : 1591192794887,
+          "duration" : 2031
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "e94b8b93d1df0004",
+        "parentUid" : "09dec0c328fc84bd5fd2b7b995ef44c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192800000,
+          "stop" : 1591192801350,
+          "duration" : 1350
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "378a34244162e8fa",
+        "parentUid" : "09dec0c328fc84bd5fd2b7b995ef44c9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192795434,
+          "stop" : 1591192796113,
+          "duration" : 679
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "09dec0c328fc84bd5fd2b7b995ef44c9"
+    }, {
+      "name" : "7940@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "1368e7242298a0e0",
+        "parentUid" : "241574473ab2719e75315b3ebf1f94e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591189121588,
+          "stop" : 1591189123849,
+          "duration" : 2261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "7f44c239c27d58b",
+        "parentUid" : "241574473ab2719e75315b3ebf1f94e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591189128962,
+          "stop" : 1591189130372,
+          "duration" : 1410
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "601741b51204de03",
+        "parentUid" : "241574473ab2719e75315b3ebf1f94e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591189124297,
+          "stop" : 1591189125054,
+          "duration" : 757
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "ae695fce28bfa06c",
+        "parentUid" : "241574473ab2719e75315b3ebf1f94e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591189127402,
+          "stop" : 1591189128698,
+          "duration" : 1296
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "4ae6865bb128f69a",
+        "parentUid" : "241574473ab2719e75315b3ebf1f94e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591189125347,
+          "stop" : 1591189127088,
+          "duration" : 1741
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "30ecd675bc9391a9",
+        "parentUid" : "241574473ab2719e75315b3ebf1f94e0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591189130673,
+          "stop" : 1591189131481,
+          "duration" : 808
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "241574473ab2719e75315b3ebf1f94e0"
+    }, {
+      "name" : "12608@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "2a951fc934eca0c4",
+        "parentUid" : "c885f94f399cba96e6bf3258ae85926d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193111677,
+          "stop" : 1591193112199,
+          "duration" : 522
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "e777850209b67cd3",
+        "parentUid" : "c885f94f399cba96e6bf3258ae85926d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591193117610,
+          "stop" : 1591193124868,
+          "duration" : 7258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "fff4ae8bcdeef25",
+        "parentUid" : "c885f94f399cba96e6bf3258ae85926d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193116213,
+          "stop" : 1591193117368,
+          "duration" : 1155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "843cc098f18aaad5",
+        "parentUid" : "c885f94f399cba96e6bf3258ae85926d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193114650,
+          "stop" : 1591193115898,
+          "duration" : 1248
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "54aca7f4e15f8a2f",
+        "parentUid" : "c885f94f399cba96e6bf3258ae85926d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193112529,
+          "stop" : 1591193114310,
+          "duration" : 1781
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "bb0709c9eadb3833",
+        "parentUid" : "c885f94f399cba96e6bf3258ae85926d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193108723,
+          "stop" : 1591193110960,
+          "duration" : 2237
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "c885f94f399cba96e6bf3258ae85926d"
+    }, {
+      "name" : "12504@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Application Version Number ",
+        "uid" : "c3ba5a7146f70725",
+        "parentUid" : "2b81e73f39553a02cd4fa579ee9b010d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591173932471,
+          "stop" : 1591173932471,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test01: Verify Screen Resolution ",
+        "uid" : "a1810bc065b13106",
+        "parentUid" : "2b81e73f39553a02cd4fa579ee9b010d",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591173932463,
+          "stop" : 1591173932465,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "38902439b81c254d",
+        "parentUid" : "2b81e73f39553a02cd4fa579ee9b010d",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591173932331,
+          "stop" : 1591173932333,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "2b81e73f39553a02cd4fa579ee9b010d"
+    }, {
+      "name" : "13108@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "e13a51da4cbdd6e8",
+        "parentUid" : "0a394b23992a60da8f9f91b6c23a343a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591720487609,
+          "stop" : 1591720494965,
+          "duration" : 7356
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "55775cba99cd0a84",
+        "parentUid" : "0a394b23992a60da8f9f91b6c23a343a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591720477402,
+          "stop" : 1591720478244,
+          "duration" : 842
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test07: verify creation of dashboard and visual",
+        "uid" : "4de21ab14ab40321",
+        "parentUid" : "0a394b23992a60da8f9f91b6c23a343a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591720495442,
+          "stop" : 1591720497900,
+          "duration" : 2458
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "3c697a43e0983b8a",
+        "parentUid" : "0a394b23992a60da8f9f91b6c23a343a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591720482236,
+          "stop" : 1591720484139,
+          "duration" : 1903
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "8faa0cf304dbee7f",
+        "parentUid" : "0a394b23992a60da8f9f91b6c23a343a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591720473268,
+          "stop" : 1591720476301,
+          "duration" : 3033
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "102a34dca4bd27d4",
+        "parentUid" : "0a394b23992a60da8f9f91b6c23a343a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591720478684,
+          "stop" : 1591720481722,
+          "duration" : 3038
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "4c77289dc77df94e",
+        "parentUid" : "0a394b23992a60da8f9f91b6c23a343a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591720484719,
+          "stop" : 1591720487006,
+          "duration" : 2287
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "0a394b23992a60da8f9f91b6c23a343a"
+    }, {
+      "name" : "7968@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Screen Resolution ",
+        "uid" : "9e17e0c1f60ae2dc",
+        "parentUid" : "0abf300b929b0b47cbbd06ebc98df525",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591176560300,
+          "stop" : 1591176560302,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "24685800f26bc751",
+        "parentUid" : "0abf300b929b0b47cbbd06ebc98df525",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591176560196,
+          "stop" : 1591176560198,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02: Verify Application Version Number ",
+        "uid" : "3a0057cd80f3a838",
+        "parentUid" : "0abf300b929b0b47cbbd06ebc98df525",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591176560313,
+          "stop" : 1591176560313,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0abf300b929b0b47cbbd06ebc98df525"
+    }, {
+      "name" : "14828@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team And Verify",
+        "uid" : "166356d716aeb351",
+        "parentUid" : "d2add608b01eada885209572200b377f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591173908048,
+          "stop" : 1591173910950,
+          "duration" : 2902
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "d2add608b01eada885209572200b377f"
+    }, {
+      "name" : "13684@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Subtraction Command",
+        "uid" : "7437f16d4d749819",
+        "parentUid" : "41f6102c11e9ffe3e743b63413205afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591184934322,
+          "stop" : 1591184939142,
+          "duration" : 4820
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test01: Verify Addiction Command",
+        "uid" : "33e3435c14ccf06c",
+        "parentUid" : "41f6102c11e9ffe3e743b63413205afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591184928578,
+          "stop" : 1591184933955,
+          "duration" : 5377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test03: Verify Multiply Command",
+        "uid" : "40cb56d5be072d10",
+        "parentUid" : "41f6102c11e9ffe3e743b63413205afd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591184939161,
+          "stop" : 1591184945237,
+          "duration" : 6076
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "41f6102c11e9ffe3e743b63413205afd"
+    }, {
+      "name" : "22388@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team And Verify",
+        "uid" : "f91ccdc7ab1a17d1",
+        "parentUid" : "99a0dbccbf127ea1c1ce000dc56a0472",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591168082860,
+          "stop" : 1591168082864,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02: Verify Application Version Number ",
+        "uid" : "16115751733755cd",
+        "parentUid" : "99a0dbccbf127ea1c1ce000dc56a0472",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591176496479,
+          "stop" : 1591176496619,
+          "duration" : 140
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "f9ec72443abac047",
+        "parentUid" : "99a0dbccbf127ea1c1ce000dc56a0472",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591168082407,
+          "stop" : 1591168082408,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Verify Screen Resolution ",
+        "uid" : "d52cc7a2e8b68f3",
+        "parentUid" : "99a0dbccbf127ea1c1ce000dc56a0472",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591176495666,
+          "stop" : 1591176496331,
+          "duration" : 665
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "99a0dbccbf127ea1c1ce000dc56a0472"
+    }, {
+      "name" : "10204@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "c1e42c71c82cb48c",
+        "parentUid" : "f27329089df0fe914abde6ff5e5121e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591189515481,
+          "stop" : 1591189516163,
+          "duration" : 682
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "8f8d9fb5f9293daa",
+        "parentUid" : "f27329089df0fe914abde6ff5e5121e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591189518206,
+          "stop" : 1591189519558,
+          "duration" : 1352
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "cd108bfdf87fd39c",
+        "parentUid" : "f27329089df0fe914abde6ff5e5121e4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591189521181,
+          "stop" : 1591189521602,
+          "duration" : 421
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "404df0b7d08c617b",
+        "parentUid" : "f27329089df0fe914abde6ff5e5121e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591189512700,
+          "stop" : 1591189515039,
+          "duration" : 2339
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "93b3097780f02a77",
+        "parentUid" : "f27329089df0fe914abde6ff5e5121e4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591189516391,
+          "stop" : 1591189517937,
+          "duration" : 1546
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "9f5c0c42314d2d95",
+        "parentUid" : "f27329089df0fe914abde6ff5e5121e4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591189519773,
+          "stop" : 1591189520894,
+          "duration" : 1121
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "f27329089df0fe914abde6ff5e5121e4"
+    }, {
+      "name" : "3716@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addiction Command",
+        "uid" : "bf03a4ec4c5634e",
+        "parentUid" : "d77d5295123108184f8aa2d03ceec54e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591184283393,
+          "stop" : 1591184283399,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02: Verify Subtraction Command",
+        "uid" : "1433e2888d9183fb",
+        "parentUid" : "d77d5295123108184f8aa2d03ceec54e",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591184283413,
+          "stop" : 1591184283414,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "9a542a6110de709c",
+        "parentUid" : "d77d5295123108184f8aa2d03ceec54e",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591184283225,
+          "stop" : 1591184283229,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d77d5295123108184f8aa2d03ceec54e"
+    }, {
+      "name" : "20128@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addiction Command",
+        "uid" : "ecd95d00fda5ac62",
+        "parentUid" : "8b8df64f5845bb9eeffa402e6fb283cd",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591181777036,
+          "stop" : 1591181777041,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "74b19719597f7d7a",
+        "parentUid" : "8b8df64f5845bb9eeffa402e6fb283cd",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591181776691,
+          "stop" : 1591181776695,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "8b8df64f5845bb9eeffa402e6fb283cd"
+    }, {
+      "name" : "12208@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addiction Command",
+        "uid" : "3a8d3130e3dafa5b",
+        "parentUid" : "5d7bc4196491a8f18fe7d9beb73a97f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591184664487,
+          "stop" : 1591184670148,
+          "duration" : 5661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test02: Verify Subtraction Command",
+        "uid" : "3e1d2e233156aebc",
+        "parentUid" : "5d7bc4196491a8f18fe7d9beb73a97f5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591184670472,
+          "stop" : 1591184675730,
+          "duration" : 5258
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "5d7bc4196491a8f18fe7d9beb73a97f5"
+    }, {
+      "name" : "12312@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "65785e24a5529e70",
+        "parentUid" : "a0f5b0035fe6bcfc1f501271cfd6f641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591173875168,
+          "stop" : 1591173877861,
+          "duration" : 2693
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "5874e986b603c763",
+        "parentUid" : "a0f5b0035fe6bcfc1f501271cfd6f641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591173879840,
+          "stop" : 1591173881404,
+          "duration" : 1564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "6648e13451e321b3",
+        "parentUid" : "a0f5b0035fe6bcfc1f501271cfd6f641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591173878773,
+          "stop" : 1591173879434,
+          "duration" : 661
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "455058e7118c9904",
+        "parentUid" : "a0f5b0035fe6bcfc1f501271cfd6f641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591173883225,
+          "stop" : 1591173884633,
+          "duration" : 1408
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "99169b81c7b6ffd0",
+        "parentUid" : "a0f5b0035fe6bcfc1f501271cfd6f641",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591173881695,
+          "stop" : 1591173882999,
+          "duration" : 1304
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "a0f5b0035fe6bcfc1f501271cfd6f641"
+    }, {
+      "name" : "14948@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test05: verify Avatar",
+        "uid" : "612558dbaa991865",
+        "parentUid" : "ba87291cd9228d0742e7e554d6d2dcf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193162710,
+          "stop" : 1591193164002,
+          "duration" : 1292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "40185f133a31300c",
+        "parentUid" : "ba87291cd9228d0742e7e554d6d2dcf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193161371,
+          "stop" : 1591193162471,
+          "duration" : 1100
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "104ed0a5800cb16f",
+        "parentUid" : "ba87291cd9228d0742e7e554d6d2dcf5",
+        "status" : "failed",
+        "time" : {
+          "start" : 1591193164262,
+          "stop" : 1591193166781,
+          "duration" : 2519
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "3a71b5ba04498575",
+        "parentUid" : "ba87291cd9228d0742e7e554d6d2dcf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193159452,
+          "stop" : 1591193161102,
+          "duration" : 1650
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "4bc4d729b98b6efb",
+        "parentUid" : "ba87291cd9228d0742e7e554d6d2dcf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193154751,
+          "stop" : 1591193157237,
+          "duration" : 2486
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "c5a53335b05b562a",
+        "parentUid" : "ba87291cd9228d0742e7e554d6d2dcf5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193157992,
+          "stop" : 1591193158688,
+          "duration" : 696
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "ba87291cd9228d0742e7e554d6d2dcf5"
+    }, {
+      "name" : "12400@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Screen Resolution ",
+        "uid" : "de5c19e601506a42",
+        "parentUid" : "7a9ba2f3376b045a4084432255cd5831",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591175034204,
+          "stop" : 1591175034217,
+          "duration" : 13
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02: Verify Application Version Number ",
+        "uid" : "6565cb2a92170bc5",
+        "parentUid" : "7a9ba2f3376b045a4084432255cd5831",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591175034229,
+          "stop" : 1591175034229,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "e495f4f2b07c369f",
+        "parentUid" : "7a9ba2f3376b045a4084432255cd5831",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591175034029,
+          "stop" : 1591175034029,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7a9ba2f3376b045a4084432255cd5831"
+    }, {
+      "name" : "7236@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Version Number ",
+        "uid" : "c57674ec9f086f2d",
+        "parentUid" : "26ad0f149730f2c7c0deae5adebf9fa8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1588433028843,
+          "stop" : 1588433029189,
+          "duration" : 346
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Verify Screen Resolution ",
+        "uid" : "c13d60b5357a3ba5",
+        "parentUid" : "26ad0f149730f2c7c0deae5adebf9fa8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588433028218,
+          "stop" : 1588433028735,
+          "duration" : 517
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "26ad0f149730f2c7c0deae5adebf9fa8"
+    }, {
+      "name" : "10560@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "1f1d88f9586a4d16",
+        "parentUid" : "a3fca89d15714833294e97ba2233c4e3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591192497669,
+          "stop" : 1591192509285,
+          "duration" : 11616
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "cedeb53f977b3692",
+        "parentUid" : "a3fca89d15714833294e97ba2233c4e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192496154,
+          "stop" : 1591192497457,
+          "duration" : 1303
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "274da3ac595f5cae",
+        "parentUid" : "a3fca89d15714833294e97ba2233c4e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192491515,
+          "stop" : 1591192492191,
+          "duration" : 676
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "da338e1e3b5530fa",
+        "parentUid" : "a3fca89d15714833294e97ba2233c4e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192492483,
+          "stop" : 1591192494117,
+          "duration" : 1634
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "48c5f283063d380f",
+        "parentUid" : "a3fca89d15714833294e97ba2233c4e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192494446,
+          "stop" : 1591192495866,
+          "duration" : 1420
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "e7cbe795cea6ad07",
+        "parentUid" : "a3fca89d15714833294e97ba2233c4e3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192489172,
+          "stop" : 1591192491105,
+          "duration" : 1933
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "a3fca89d15714833294e97ba2233c4e3"
+    }, {
+      "name" : "13812@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Application Version Number ",
+        "uid" : "54f4ddafbbc161ae",
+        "parentUid" : "9b78e9d12a8d94b634f10f21677a6d20",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591175044961,
+          "stop" : 1591175044962,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Verify Screen Resolution ",
+        "uid" : "7456189a45ce81ab",
+        "parentUid" : "9b78e9d12a8d94b634f10f21677a6d20",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591175044948,
+          "stop" : 1591175044952,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "ff9283dc89185006",
+        "parentUid" : "9b78e9d12a8d94b634f10f21677a6d20",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591175044827,
+          "stop" : 1591175044829,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9b78e9d12a8d94b634f10f21677a6d20"
+    }, {
+      "name" : "4204@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Subtraction Command",
+        "uid" : "9210f9dd6e2ee3f8",
+        "parentUid" : "b1c7f8b443831d14bc04fa263764ee85",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591184441273,
+          "stop" : 1591184447028,
+          "duration" : 5755
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "b1c7f8b443831d14bc04fa263764ee85"
+    }, {
+      "name" : "6972@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "d93336fe51508f3",
+        "parentUid" : "f10a0fd0de1d59f9ff262ec85d1a5c78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193586701,
+          "stop" : 1591193587439,
+          "duration" : 738
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "888223f6dc47d314",
+        "parentUid" : "f10a0fd0de1d59f9ff262ec85d1a5c78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193587697,
+          "stop" : 1591193589227,
+          "duration" : 1530
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "6296a7a1516ac26f",
+        "parentUid" : "f10a0fd0de1d59f9ff262ec85d1a5c78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193591051,
+          "stop" : 1591193592353,
+          "duration" : 1302
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "3149136d3a7a0016",
+        "parentUid" : "f10a0fd0de1d59f9ff262ec85d1a5c78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193589488,
+          "stop" : 1591193590788,
+          "duration" : 1300
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "4cb0824149ac8ca5",
+        "parentUid" : "f10a0fd0de1d59f9ff262ec85d1a5c78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193592558,
+          "stop" : 1591193594189,
+          "duration" : 1631
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "8e90d6960f04b6ea",
+        "parentUid" : "f10a0fd0de1d59f9ff262ec85d1a5c78",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193584112,
+          "stop" : 1591193586266,
+          "duration" : 2154
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "f10a0fd0de1d59f9ff262ec85d1a5c78"
+    }, {
+      "name" : "14560@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "c186701f830d2d88",
+        "parentUid" : "d0ab76d32b59c6c3a1e9b341dad4c3f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193535957,
+          "stop" : 1591193538123,
+          "duration" : 2166
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Verify Addiction Command",
+        "uid" : "c482fd55429b384a",
+        "parentUid" : "d0ab76d32b59c6c3a1e9b341dad4c3f7",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591182743445,
+          "stop" : 1591182743447,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "7ea80abab39adb49",
+        "parentUid" : "d0ab76d32b59c6c3a1e9b341dad4c3f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193538614,
+          "stop" : 1591193539375,
+          "duration" : 761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "22c759d651833160",
+        "parentUid" : "d0ab76d32b59c6c3a1e9b341dad4c3f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193539636,
+          "stop" : 1591193541399,
+          "duration" : 1763
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "e0278f728a712fab",
+        "parentUid" : "d0ab76d32b59c6c3a1e9b341dad4c3f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591193545019,
+          "stop" : 1591193552078,
+          "duration" : 7059
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "cd8ce7fd9af5f80f",
+        "parentUid" : "d0ab76d32b59c6c3a1e9b341dad4c3f7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591182743294,
+          "stop" : 1591182743302,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "debc06d5ee8ea6e8",
+        "parentUid" : "d0ab76d32b59c6c3a1e9b341dad4c3f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193543413,
+          "stop" : 1591193544757,
+          "duration" : 1344
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "b4c79012e55b6d79",
+        "parentUid" : "d0ab76d32b59c6c3a1e9b341dad4c3f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591193541635,
+          "stop" : 1591193543104,
+          "duration" : 1469
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "d0ab76d32b59c6c3a1e9b341dad4c3f7"
+    }, {
+      "name" : "9564@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Application Version Number ",
+        "uid" : "8daae42fd97430fa",
+        "parentUid" : "8e0f4b115ad476e677cfe3c5ec9a1a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588433738027,
+          "stop" : 1588433738319,
+          "duration" : 292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Verify Screen Resolution ",
+        "uid" : "2667e5a478910a26",
+        "parentUid" : "8e0f4b115ad476e677cfe3c5ec9a1a97",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588433737473,
+          "stop" : 1588433737927,
+          "duration" : 454
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8e0f4b115ad476e677cfe3c5ec9a1a97"
+    }, {
+      "name" : "7804@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Screen Resolution ",
+        "uid" : "3b5329e13f319bef",
+        "parentUid" : "29b61da5d62d313f68d3c816e79dfd2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1588433768888,
+          "stop" : 1588433769269,
+          "duration" : 381
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02: Verify Application Version Number ",
+        "uid" : "e3ca5cc71ff7c8a6",
+        "parentUid" : "29b61da5d62d313f68d3c816e79dfd2a",
+        "status" : "broken",
+        "time" : {
+          "start" : 1588433769352,
+          "stop" : 1588433769500,
+          "duration" : 148
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "29b61da5d62d313f68d3c816e79dfd2a"
+    }, {
+      "name" : "6276@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "180f9a66cfd8427f",
+        "parentUid" : "7b5fb05e1314ccd30c938c4ed45ebdb8",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591168115600,
+          "stop" : 1591168115600,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "a7e41668ce1c06c9",
+        "parentUid" : "7b5fb05e1314ccd30c938c4ed45ebdb8",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591168115537,
+          "stop" : 1591168115548,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "75800b08100e6780",
+        "parentUid" : "7b5fb05e1314ccd30c938c4ed45ebdb8",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591168115563,
+          "stop" : 1591168115563,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "9225f656cb039631",
+        "parentUid" : "7b5fb05e1314ccd30c938c4ed45ebdb8",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591168115584,
+          "stop" : 1591168115585,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "86e02a860cfd4d7a",
+        "parentUid" : "7b5fb05e1314ccd30c938c4ed45ebdb8",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591168115619,
+          "stop" : 1591168115622,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "26432a86166074e9",
+        "parentUid" : "7b5fb05e1314ccd30c938c4ed45ebdb8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591168115326,
+          "stop" : 1591168115333,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b5fb05e1314ccd30c938c4ed45ebdb8"
+    }, {
+      "name" : "9292@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addiction Command",
+        "uid" : "8a718a1c575fac8",
+        "parentUid" : "f0bcc0711aa4b485e85f003081c7a0c3",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591182649080,
+          "stop" : 1591182649085,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "d50eae128155b792",
+        "parentUid" : "f0bcc0711aa4b485e85f003081c7a0c3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591182648659,
+          "stop" : 1591182648664,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "f0bcc0711aa4b485e85f003081c7a0c3"
+    }, {
+      "name" : "11800@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team And Verify",
+        "uid" : "2ec6194cc9d5140a",
+        "parentUid" : "dee9cbd22cf460e3c6a3e3fd746f9e11",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591170259817,
+          "stop" : 1591170259823,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "dee9cbd22cf460e3c6a3e3fd746f9e11"
+    }, {
+      "name" : "4848@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Mortgage",
+        "uid" : "bf1b2a550595c6a1",
+        "parentUid" : "eccf65db09abf10724dfae038b23e2a3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591180024171,
+          "stop" : 1591180031577,
+          "duration" : 7406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "mobile" ]
+      } ],
+      "uid" : "eccf65db09abf10724dfae038b23e2a3"
+    }, {
+      "name" : "7360@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test03: Add and Verify Users",
+        "uid" : "9ad2f70a8d260317",
+        "parentUid" : "337419de79385502bbef801cf350ee02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192557668,
+          "stop" : 1591192559121,
+          "duration" : 1453
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "7d7a3164a420d726",
+        "parentUid" : "337419de79385502bbef801cf350ee02",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591192562290,
+          "stop" : 1591192574037,
+          "duration" : 11747
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test04: Delete Last User and Verify Users",
+        "uid" : "d1ad6cb11e71eaf6",
+        "parentUid" : "337419de79385502bbef801cf350ee02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192559384,
+          "stop" : 1591192560471,
+          "duration" : 1087
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test02: Verify Default Users",
+        "uid" : "1feb34e96c560790",
+        "parentUid" : "337419de79385502bbef801cf350ee02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192556708,
+          "stop" : 1591192557392,
+          "duration" : 684
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test05: verify Avatar",
+        "uid" : "6fa226ad811d3c89",
+        "parentUid" : "337419de79385502bbef801cf350ee02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192560750,
+          "stop" : 1591192562083,
+          "duration" : 1333
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "daf97a794a0229a9",
+        "parentUid" : "337419de79385502bbef801cf350ee02",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591192554147,
+          "stop" : 1591192556211,
+          "duration" : 2064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "web" ]
+      } ],
+      "uid" : "337419de79385502bbef801cf350ee02"
+    }, {
+      "name" : "13980@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Subtraction Command",
+        "uid" : "e50929178be92f7a",
+        "parentUid" : "448ef4a595a3ecb99cef35afe08077c4",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591184511408,
+          "stop" : 1591184527028,
+          "duration" : 15620
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test01: Verify Addiction Command",
+        "uid" : "2b65d06c145aae2a",
+        "parentUid" : "448ef4a595a3ecb99cef35afe08077c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591184505934,
+          "stop" : 1591184511072,
+          "duration" : 5138
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "448ef4a595a3ecb99cef35afe08077c4"
+    }, {
+      "name" : "12528@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "a3ea6b0995b29405",
+        "parentUid" : "b2af8c77f57f2a0d13fdb90870e76cde",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591189282841,
+          "stop" : 1591189282845,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "6da6d8c42d8ab436",
+        "parentUid" : "b2af8c77f57f2a0d13fdb90870e76cde",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591189282655,
+          "stop" : 1591189282661,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b2af8c77f57f2a0d13fdb90870e76cde"
+    }, {
+      "name" : "8856@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addiction Command",
+        "uid" : "fb9f8452e00018f9",
+        "parentUid" : "917fdcc3382751c226022e80cf7d5cbf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591183918359,
+          "stop" : 1591183923481,
+          "duration" : 5122
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test02: Verify Subtraction Command",
+        "uid" : "83dbca4fbbd9d21c",
+        "parentUid" : "917fdcc3382751c226022e80cf7d5cbf",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591183923785,
+          "stop" : 1591183939016,
+          "duration" : 15231
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "917fdcc3382751c226022e80cf7d5cbf"
+    }, {
+      "name" : "15796@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Application Version Number ",
+        "uid" : "83822b342f9f48c3",
+        "parentUid" : "15cfee413faf5f6b9c3f1e7dbe81d764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591175990930,
+          "stop" : 1591175991390,
+          "duration" : 460
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test01: Verify Screen Resolution ",
+        "uid" : "c46c823e355e9484",
+        "parentUid" : "15cfee413faf5f6b9c3f1e7dbe81d764",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591175990098,
+          "stop" : 1591175990727,
+          "duration" : 629
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "15cfee413faf5f6b9c3f1e7dbe81d764"
+    }, {
+      "name" : "11212@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Screen Resolution ",
+        "uid" : "5633ab9c0d4df3a3",
+        "parentUid" : "d3ba54b78196b8627d31e8cc7bb1c421",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591176754102,
+          "stop" : 1591176754785,
+          "duration" : 683
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test02: Verify Application Version Number ",
+        "uid" : "fade0c97e78167f7",
+        "parentUid" : "d3ba54b78196b8627d31e8cc7bb1c421",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591176754953,
+          "stop" : 1591176755405,
+          "duration" : 452
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "d3ba54b78196b8627d31e8cc7bb1c421"
+    }, {
+      "name" : "4004@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "86e81545fbaa2348",
+        "parentUid" : "2c126fc37438e03087580e1c258a8959",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591181933072,
+          "stop" : 1591181933076,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Verify Addiction Command",
+        "uid" : "b36517cdd11656df",
+        "parentUid" : "2c126fc37438e03087580e1c258a8959",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591181933234,
+          "stop" : 1591181933245,
+          "duration" : 11
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "2c126fc37438e03087580e1c258a8959"
+    }, {
+      "name" : "14556@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Application Version Number ",
+        "uid" : "6c0f9c733d27822",
+        "parentUid" : "03cc04493dcdcaa9ccc60ecee0240d88",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591174403840,
+          "stop" : 1591174403841,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "startSession",
+        "uid" : "3fb5d1e64c2c2265",
+        "parentUid" : "03cc04493dcdcaa9ccc60ecee0240d88",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591174403674,
+          "stop" : 1591174403675,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      }, {
+        "name" : "Test01: Verify Screen Resolution ",
+        "uid" : "449afcd767f23c9a",
+        "parentUid" : "03cc04493dcdcaa9ccc60ecee0240d88",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591174403832,
+          "stop" : 1591174403833,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "electron" ]
+      } ],
+      "uid" : "03cc04493dcdcaa9ccc60ecee0240d88"
+    }, {
+      "name" : "16548@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team And Verify",
+        "uid" : "be9fd2e9f95d32fc",
+        "parentUid" : "d9a8d5bf385842465681ad362402029b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591168498482,
+          "stop" : 1591168500264,
+          "duration" : 1782
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d9a8d5bf385842465681ad362402029b"
+    }, {
+      "name" : "1404@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "c3806050beeeedc3",
+        "parentUid" : "e9a1baec0f171792c315e63969dfc0d7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591181733921,
+          "stop" : 1591181733926,
+          "duration" : 5
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Verify Addistion Command",
+        "uid" : "1720a3055b64d433",
+        "parentUid" : "e9a1baec0f171792c315e63969dfc0d7",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591181734059,
+          "stop" : 1591181734059,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "e9a1baec0f171792c315e63969dfc0d7"
+    }, {
+      "name" : "16908@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "cca2d92cd24598e5",
+        "parentUid" : "1c61e21c1a32b2ce8ba4c4f3c82beea0",
+        "status" : "broken",
+        "time" : {
+          "start" : 1590664895717,
+          "stop" : 1590664895719,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Login to Grafana",
+        "uid" : "a558ed1c3f5ebe61",
+        "parentUid" : "1c61e21c1a32b2ce8ba4c4f3c82beea0",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1590664895871,
+          "stop" : 1590664895874,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1c61e21c1a32b2ce8ba4c4f3c82beea0"
+    }, {
+      "name" : "13656@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team And Verify",
+        "uid" : "704b8c9f9203fe60",
+        "parentUid" : "acf4e6b589ba3c010e5ffec1b612b62d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591170536550,
+          "stop" : 1591170538133,
+          "duration" : 1583
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "acf4e6b589ba3c010e5ffec1b612b62d"
+    }, {
+      "name" : "2028@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "8e56bdb8274e945b",
+        "parentUid" : "4393796dbf9bb479c65bd0b27e7f57d3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591182578419,
+          "stop" : 1591182578426,
+          "duration" : 7
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      }, {
+        "name" : "Test01: Verify Addiction Command",
+        "uid" : "1d73ee5a28936a00",
+        "parentUid" : "4393796dbf9bb479c65bd0b27e7f57d3",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591182578815,
+          "stop" : 1591182578821,
+          "duration" : 6
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "4393796dbf9bb479c65bd0b27e7f57d3"
+    }, {
+      "name" : "11424@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team And Verify",
+        "uid" : "8107abbced190d01",
+        "parentUid" : "0904b16628f2d27ce566bae49aa8f330",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591170212443,
+          "stop" : 1591170212574,
+          "duration" : 131
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "0904b16628f2d27ce566bae49aa8f330"
+    }, {
+      "name" : "9348@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "6becf90e1a218899",
+        "parentUid" : "ac018b74b97c69adfc34ce11d2dbc878",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591719312340,
+          "stop" : 1591719312344,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test06: verify new folder doesn't have dashboard",
+        "uid" : "fa8bd6ebf278b183",
+        "parentUid" : "ac018b74b97c69adfc34ce11d2dbc878",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591719312586,
+          "stop" : 1591719312590,
+          "duration" : 4
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ac018b74b97c69adfc34ce11d2dbc878"
+    }, {
+      "name" : "19424@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team And Verify",
+        "uid" : "148c1b988092609e",
+        "parentUid" : "593632805025d79da31f2a10c43cf05c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591170511061,
+          "stop" : 1591170513560,
+          "duration" : 2499
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "593632805025d79da31f2a10c43cf05c"
+    }, {
+      "name" : "4684@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team And Verify",
+        "uid" : "ec9752fb3200a20f",
+        "parentUid" : "9fc73b5a9b877ee587c2e69d01901684",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591170300907,
+          "stop" : 1591170300915,
+          "duration" : 8
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9fc73b5a9b877ee587c2e69d01901684"
+    }, {
+      "name" : "11936@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "startSession",
+        "uid" : "16f50c1bc5a75dbc",
+        "parentUid" : "814c2c16850766db9066264ce69c1114",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591167972194,
+          "stop" : 1591167972196,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Add Team And Verify",
+        "uid" : "37fd8a23aa7d756f",
+        "parentUid" : "814c2c16850766db9066264ce69c1114",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591167972353,
+          "stop" : 1591167972355,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "814c2c16850766db9066264ce69c1114"
+    }, {
+      "name" : "21872@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test02: Verify Application Version Number ",
+        "uid" : "60e1445925b0c462",
+        "parentUid" : "d4ac8cd3c36c0803390c1bb8311ff9f3",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591174433013,
+          "stop" : 1591174433013,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Test01: Verify Screen Resolution ",
+        "uid" : "7922111d38a95bff",
+        "parentUid" : "d4ac8cd3c36c0803390c1bb8311ff9f3",
+        "status" : "skipped",
+        "time" : {
+          "start" : 1591174432999,
+          "stop" : 1591174433002,
+          "duration" : 3
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "startSession",
+        "uid" : "de9e65c7fe098b78",
+        "parentUid" : "d4ac8cd3c36c0803390c1bb8311ff9f3",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591174432865,
+          "stop" : 1591174432867,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "d4ac8cd3c36c0803390c1bb8311ff9f3"
+    }, {
+      "name" : "22472@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team And Verify",
+        "uid" : "65349b068dd26500",
+        "parentUid" : "aea6a92426531d579e0eac6fde651218",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591170606491,
+          "stop" : 1591170609087,
+          "duration" : 2596
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "api" ]
+      } ],
+      "uid" : "aea6a92426531d579e0eac6fde651218"
+    }, {
+      "name" : "16676@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Add Team And Verify",
+        "uid" : "be7043e0c474d432",
+        "parentUid" : "4619e18f125846d12f0f1ebdb470d3b7",
+        "status" : "broken",
+        "time" : {
+          "start" : 1591168343182,
+          "stop" : 1591168343202,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "4619e18f125846d12f0f1ebdb470d3b7"
+    }, {
+      "name" : "14012@DESKTOP-5A80V1T.main(1)",
+      "children" : [ {
+        "name" : "Test01: Verify Addiction Command",
+        "uid" : "da113787065940d6",
+        "parentUid" : "838545c39c9e3fab225862c41958f47f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1591183532185,
+          "stop" : 1591183538004,
+          "duration" : 5819
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "desktop" ]
+      } ],
+      "uid" : "838545c39c9e3fab225862c41958f47f"
     } ],
     "uid" : "c94ccc46a8dde4d6554c662c8d3cf0d3"
   } ]
